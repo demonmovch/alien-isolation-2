@@ -1,0 +1,43 @@
+html,body{
+		padding: 0;
+		margin: 0;
+		background-color: #000;
+		height: 100%;
+	}
+
+.body_before_game{
+	background-image:url(../images/starfield.jpg); 	
+	text-align: center;		
+	display: flex;
+}
+
+button{
+	padding: 15px;
+	font: bold 1.2em Verdana, Arial, Helvetica, sans-serif; 
+	border-radius: 5px;
+	border: 4px solid #f90;
+	background-color: #8686ac;
+	color: #f90;
+	cursor: pointer;
+}
+
+button:hover{
+	border: 4px solid #f90;
+	background-color: #f90;
+	color: #8686ac;
+}
+
+.heading{
+	color: #f90; 
+	display: block;
+	font: bold 1.7em Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.display_none{
+	display: none;
+}
+
+.margin_auto{
+	margin: auto;
+}
+
